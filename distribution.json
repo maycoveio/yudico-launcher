@@ -8,47 +8,65 @@
     "rss": "",
     "servers": [
         {
-            "id": "yudico_live_1211",
-            "name": "Yudico Live 1.21.1",
-            "description": "Servidor Oficial Yudico Live - 1.21.1",
+            "id": "yudico_live_1211_fabric",
+            "name": "Yudico Live 1.21.1 (Fabric)",
+            "description": "Versão recomendada para MODS e Performance.",
             "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
             "version": "1.0.0",
             "address": "enx-cirion-29.enx.host:10029",
             "minecraftVersion": "1.21.1",
             "mainServer": true,
             "autoconnect": true,
-            "javaOptions": {
-                "supported": ">=21",
-                "suggestedMajor": 21,
-                "ram": {
-                    "recommended": 4096,
-                    "minimum": 2048
-                }
-            },
+            "javaOptions": { "supported": ">=21", "suggestedMajor": 21 },
             "modules": [
                 {
                     "id": "net.fabricmc:fabric-loader:0.16.0",
                     "name": "Fabric Loader",
                     "type": "Fabric",
                     "artifact": {
-                        "size": 1196222,
-                        "MD5": "a43d5a142246801343b6cedef1c102c4",
                         "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.0/fabric-loader-0.16.0.jar"
                     },
                     "subModules": [
                         {
                             "id": "1.21.1-fabric-0.16.0",
-                            "name": "Fabric Version Manifest",
+                            "name": "Fabric Manifest",
                             "type": "VersionManifest",
-                            "artifact": {
-                                "size": 0,
-                                "MD5": "",
-                                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.16.0/profile/json"
-                            }
+                            "artifact": { "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.16.0/profile/json" }
                         }
                     ]
                 }
             ]
+        },
+        {
+            "id": "yudico_live_1211_forge",
+            "name": "Yudico Live 1.21.1 (Forge/NeoForge)",
+            "description": "Versão clássica para mods de Forge.",
+            "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
+            "version": "1.0.0",
+            "address": "enx-cirion-29.enx.host:10029",
+            "minecraftVersion": "1.21.1",
+            "javaOptions": { "supported": ">=21", "suggestedMajor": 21 },
+            "modules": [
+                {
+                    "id": "net.minecraftforge:forge:1.21.1-52.0.0",
+                    "name": "Forge Loader",
+                    "type": "ForgeHosted",
+                    "artifact": {
+                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.0.0/forge-1.21.1-52.0.0-universal.jar"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "yudico_live_1211_vanilla",
+            "name": "Yudico Live 1.21.1 (Mojang)",
+            "description": "Minecraft puro, sem mods. Estável e leve.",
+            "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
+            "version": "1.0.0",
+            "address": "enx-cirion-29.enx.host:10029",
+            "minecraftVersion": "1.21.1",
+            "javaOptions": { "supported": ">=21", "suggestedMajor": 21 },
+            "modules": []
         }
     ]
 }

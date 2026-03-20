@@ -10,7 +10,7 @@
         {
             "id": "yudico_fabric",
             "name": "Yudico Live 1.21.1 (Fabric)",
-            "description": "Versão estável com Mods de Performance.",
+            "description": "Versão com Mods. Estável e Rápida.",
             "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
             "version": "1.0.0",
             "address": "enx-cirion-29.enx.host:10029",
@@ -46,7 +46,7 @@
         {
             "id": "yudico_forge",
             "name": "Yudico Live 1.21.1 (Forge)",
-            "description": "Versão para mods clássicos do Forge.",
+            "description": "Versão para mods Forge.",
             "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
             "version": "1.0.0",
             "address": "enx-cirion-29.enx.host:10029",
@@ -66,7 +66,7 @@
         {
             "id": "yudico_vanilla",
             "name": "Yudico Live 1.21.1 (Vanilla)",
-            "description": "Minecraft puro da Mojang.",
+            "description": "Minecraft Original sem mods.",
             "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
             "version": "1.0.0",
             "address": "enx-cirion-29.enx.host:10029",

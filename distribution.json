@@ -1,0 +1,31 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "12334567890123456789",
+        "smallImageText": "Yudico Live",
+        "smallImageKey": "seal-circle"
+    },
+    "rss": "",
+    "servers": [
+        {
+            "id": "yudico_live_1211",
+            "name": "Yudico Live 1.21.1",
+            "description": "Servidor Oficial Yudico Live - O melhor do modded automático!",
+            "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
+            "version": "1.0.0",
+            "address": "seu.ip.aqui:25565",
+            "minecraftVersion": "1.21.1",
+            "mainServer": true,
+            "autoconnect": true,
+            "javaOptions": {
+                "supported": ">=21",
+                "suggestedMajor": 21,
+                "ram": {
+                    "recommended": 4096,
+                    "minimum": 2048
+                }
+            },
+            "modules": []
+        }
+    ]
+}

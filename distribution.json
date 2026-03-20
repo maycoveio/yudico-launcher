@@ -9,8 +9,8 @@
   "servers": [
     {
       "id": "yudico_vanilla",
-      "name": "Yudico Vanilla 1.21.1",
-      "description": "Minecraft puro.",
+      "name": "Yudico Vanilla",
+      "description": "Minecraft puro 1.21.1",
       "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
       "version": "1.0.0",
       "address": "enx-cirion-29.enx.host:10029",
@@ -21,12 +21,23 @@
         "supported": ">=21",
         "suggestedMajor": 21
       },
-      "modules": []
+      "modules": [
+        {
+          "id": "net.minecraft:client:1.21.1",
+          "name": "Minecraft Client",
+          "type": "Library",
+          "required": true,
+          "artifact": {
+            "url": "https://launcher.mojang.com/v1/objects/fe3d0d4dfd3cfdc6e7c4f4b27c0b5eaa5f3d9c1b/client.jar",
+            "size": 20000000
+          }
+        }
+      ]
     },
     {
       "id": "yudico_fabric",
-      "name": "Yudico Fabric 1.21.1",
-      "description": "Versão com Fabric.",
+      "name": "Yudico Fabric",
+      "description": "Minecraft com Fabric 1.21.1",
       "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
       "version": "1.0.0",
       "address": "enx-cirion-29.enx.host:10029",
@@ -36,6 +47,16 @@
         "suggestedMajor": 21
       },
       "modules": [
+        {
+          "id": "net.minecraft:client:1.21.1",
+          "name": "Minecraft Client",
+          "type": "Library",
+          "required": true,
+          "artifact": {
+            "url": "https://launcher.mojang.com/v1/objects/fe3d0d4dfd3cfdc6e7c4f4b27c0b5eaa5f3d9c1b/client.jar",
+            "size": 20000000
+          }
+        },
         {
           "id": "fabric-loader",
           "name": "Fabric Loader",

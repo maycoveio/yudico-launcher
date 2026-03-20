@@ -10,7 +10,7 @@
         {
             "id": "yudico_live_1211",
             "name": "Yudico Live 1.21.1",
-            "description": "Servidor Oficial Yudico Live - O melhor do modded automático!",
+            "description": "Servidor Oficial Yudico Live!",
             "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
             "version": "1.0.0",
             "address": "seu.ip.aqui:25565",
@@ -25,7 +25,18 @@
                     "minimum": 2048
                 }
             },
-            "modules": []
+            "modules": [
+                {
+                    "id": "net.fabricmc:fabric-loader:0.16.0",
+                    "name": "Fabric Loader",
+                    "type": "Fabric",
+                    "artifact": {
+                        "size": 0,
+                        "MD5": "",
+                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.0/fabric-loader-0.16.0.jar"
+                    }
+                }
+            ]
         }
     ]
 }

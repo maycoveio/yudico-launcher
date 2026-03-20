@@ -8,15 +8,14 @@
   "rss": "",
   "servers": [
     {
-      "id": "yudico_vanilla_teste",
-      "name": "Yudico 1.21.1 (Vanilla)",
-      "description": "Minecraft Puro - Teste de Download",
+      "id": "yudico_oficial_mojang",
+      "name": "Yudico 1.21.1 Oficial",
+      "description": "Baixando arquivos direto da Mojang...",
       "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
       "version": "1.0.0",
       "address": "enx-cirion-29.enx.host:10029",
       "minecraftVersion": "1.21.1",
       "mainServer": true,
-      "autoconnect": false,
       "javaOptions": {
         "supported": ">=21",
         "suggestedMajor": 21

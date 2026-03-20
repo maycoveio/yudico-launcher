@@ -10,10 +10,10 @@
         {
             "id": "yudico_live_1211",
             "name": "Yudico Live 1.21.1",
-            "description": "Servidor Oficial Yudico Live!",
+            "description": "Servidor Oficial Yudico!",
             "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
             "version": "1.0.0",
-            "address": "seu.ip.aqui:25565",
+            "address": "enx-cirion-29.enx.host:10029",
             "minecraftVersion": "1.21.1",
             "mainServer": true,
             "autoconnect": true,
@@ -31,8 +31,8 @@
                     "name": "Fabric Loader",
                     "type": "Fabric",
                     "artifact": {
-                        "size": 0,
-                        "MD5": "",
+                        "size": 1196222,
+                        "MD5": "a43d5a142246801343b6cedef1c102c4",
                         "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.0/fabric-loader-0.16.0.jar"
                     }
                 }

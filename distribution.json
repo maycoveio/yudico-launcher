@@ -28,6 +28,12 @@
                     },
                     "subModules": [
                         {
+                            "id": "net.fabricmc:intermediary:1.21.1",
+                            "name": "Intermediary",
+                            "type": "Library",
+                            "artifact": { "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar" }
+                        },
+                        {
                             "id": "1.21.1-fabric-meta",
                             "name": "Fabric Meta",
                             "type": "VersionManifest",

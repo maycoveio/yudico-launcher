@@ -1,60 +1,27 @@
 {
   "version": "1.0.0",
-  "rss": "",
   "discord": {
     "clientId": "12334567890123456789",
-    "smallImageText": "Yudico",
+    "smallImageText": "Yudico Live",
     "smallImageKey": "seal-circle"
   },
+  "rss": "",
   "servers": [
     {
-      "id": "yudico_vanilla",
-      "name": "Yudico Vanilla",
-      "description": "Minecraft 1.21.1 Puro (Original)",
+      "id": "yudico_vanilla_teste",
+      "name": "Yudico 1.21.1 (Vanilla)",
+      "description": "Minecraft Puro - Teste de Download",
       "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
       "version": "1.0.0",
       "address": "enx-cirion-29.enx.host:10029",
       "minecraftVersion": "1.21.1",
       "mainServer": true,
-      "autoconnect": true,
+      "autoconnect": false,
       "javaOptions": {
         "supported": ">=21",
         "suggestedMajor": 21
       },
       "modules": []
-    },
-    {
-      "id": "yudico_fabric",
-      "name": "Yudico Fabric",
-      "description": "Minecraft 1.21.1 com Mods",
-      "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
-      "version": "1.0.0",
-      "address": "enx-cirion-29.enx.host:10029",
-      "minecraftVersion": "1.21.1",
-      "javaOptions": {
-        "supported": ">=21",
-        "suggestedMajor": 21
-      },
-      "modules": [
-        {
-          "id": "net.fabricmc:fabric-loader:0.16.0",
-          "name": "Fabric Loader",
-          "type": "Fabric",
-          "artifact": {
-            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.0/fabric-loader-0.16.0.jar"
-          },
-          "subModules": [
-            {
-              "id": "1.21.1-fabric-meta",
-              "name": "Fabric Meta",
-              "type": "VersionManifest",
-              "artifact": {
-                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.16.0/profile/json"
-              }
-            }
-          ]
-        }
-      ]
     }
   ]
 }

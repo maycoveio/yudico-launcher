@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Yudico Live - Atualizações</title>
+  <link>https://github.com/SEU_USUARIO/yudico_live</link>
+  <description>Notícias do Servidor Yudico Live</description>
+  
+  <item>
+    <title>Servidor Atualizado para 1.21.1!</title>
+    <link>https://discord.gg/SEU_CONVITE</link>
+    <description>Agora você já pode jogar na versão oficial 1.21.1 com traduções exclusivas. Aproveite!</description>
+    <pubDate>Sat, 21 Mar 2026 10:00:00 -0300</pubDate>
+  </item>
+
+  <item>
+    <title>Marcos de Teletransporte</title>
+    <link>https://discord.gg/SEU_CONVITE</link>
+    <description>Corrigimos os Warps. Agora o clima está controlado e os preços estão visíveis!</description>
+    <pubDate>Fri, 20 Mar 2026 15:00:00 -0300</pubDate>
+  </item>
+
+</channel>
+</rss>

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
+  <item>
+    <title>Atualização Yudico Live</title>
+    <link>https://github.com/maycoveio/yudico-launcher</link>
+    <description>undefined</description>
+    <pubDate>Sat, 21 Mar 2026 10:55:26 GMT</pubDate>
+  </item>
   <title>Yudico Live - Atualizações</title>
   <link>https://github.com/SEU_USUARIO/yudico_live</link>
   <description>Notícias do Servidor Yudico Live</description>

@@ -1,16 +1,16 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.5",
   "discord": {
     "clientId": "12334567890123456789",
     "smallImageText": "Yudico Live",
     "smallImageKey": "seal-circle"
   },
-  "rss": "",
+  "rss": "https://raw.githubusercontent.com/maycoveio/yudico-launcher/refs/heads/main/news.xml",
   "servers": [
     {
       "id": "yudico_oficial_1_21_1",
       "name": "Yudico 1.21.1 Oficial",
-      "description": "Baixando arquivos oficiais da versão 1.21.1...",
+      "description": "Servidor oficial com traduções exclusivas e clima controlado!",
       "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
       "version": "1.0.0",
       "address": "enx-cirion-29.enx.host:10029",

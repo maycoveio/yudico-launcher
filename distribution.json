@@ -2,15 +2,15 @@
   "version": "1.0.0",
   "discord": {
     "clientId": "12334567890123456789",
-    "smallImageText": "Yudico Live",
+    "smallImageText": "Yudico",
     "smallImageKey": "seal-circle"
   },
   "rss": "https://raw.githubusercontent.com/maycoveio/yudico-launcher/refs/heads/main/news.xml",
   "servers": [
     {
       "id": "yudico_oficial_1_21_1",
-      "name": "Yudico 1.21.1 Oficial",
-      "description": "Servidor oficial com Fabric 1.21.1!",
+      "name": "Yudico 1.21.11",
+      "description": "Servidor RP Medieval!",
       "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
       "version": "1.0.0",
       "address": "enx-cirion-29.enx.host:10029",
@@ -71,6 +71,17 @@
               }
             },
             {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "ASM Analysis",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 33903,
+                "MD5": "9170da0e12d35e1653f0648c660bc573",
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
               "id": "org.ow2.asm:asm-commons:9.6",
               "name": "ASM Commons",
               "type": "Library",
@@ -83,11 +94,11 @@
             },
             {
               "id": "net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
-              "name": "SpongeMixin (Fabric Edition)",
+              "name": "SpongeMixin",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 935564,
+                "size": 1451874,
                 "MD5": "249622d06583995f7c3558c7e6c40608",
                 "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar"
               }

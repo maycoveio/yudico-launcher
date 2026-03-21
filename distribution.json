@@ -10,7 +10,7 @@
     {
       "id": "yudico_oficial_1_21_1",
       "name": "Yudico 1.21.1",
-      "description": "Servidor oficial com Fabric!",
+      "description": "Servidor oficial do Yudico!",
       "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
       "version": "1.0.0",
       "address": "enx-cirion-29.enx.host:10029",
@@ -41,6 +41,7 @@
               "id": "net.fabricmc:intermediary:1.21.1",
               "name": "Fabric Intermediary",
               "type": "Library",
+              "classpath": true,
               "artifact": {
                 "size": 657725,
                 "MD5": "e0e27170701194209939a3f25b28d002",

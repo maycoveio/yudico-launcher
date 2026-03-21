@@ -22,7 +22,7 @@
     {
       "id": "yudico_oficial_1_21_1",
       "name": "Yudico 1.21.1 Oficial",
-      "description": "Servidor oficial RP Medieval!",
+      "description": "Servidor oficial do Yudico!",
       "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
       "version": "1.0.0",
       "address": "enx-cirion-29.enx.host:10029",
@@ -33,7 +33,19 @@
         "supported": ">=21",
         "suggestedMajor": 21
       },
-      "modules": []
+      "modules": [
+        {
+          "id": "net.minecraft:client:1.21.1",
+          "name": "Minecraft Vanilla",
+          "type": "Library",
+          "required": true,
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "url": "https://libraries.minecraft.net/net/minecraft/client/1.21.1/client-1.21.1.jar"
+          }
+        }
+      ]
     }
   ]
 }

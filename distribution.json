@@ -1,27 +1,55 @@
 {
-    "version": "1.0.0",
-    "discord": {
-        "clientId": "12334567890123456789",
-        "smallImageText": "Yudico",
-        "smallImageKey": "seal-circle"
-    },
-    "rss": "https://raw.githubusercontent.com/maycoveio/yudico-launcher/refs/heads/main/news.xml",
-    "servers": [
-        {
-            "id": "yudico_oficial_1_21_1",
-            "name": "Yudico 1.21.1",
-            "description": "Servidor oficial Rp MEDIEVAL!",
-            "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
-            "version": "1.0.0",
-            "address": "enx-cirion-29.enx.host:10029",
-            "minecraftVersion": "1.21.1",
-            "mainServer": true,
-            "autoconnect": true,
-            "javaOptions": {
-                "supported": ">=21",
-                "suggestedMajor": 21
-            },
-            "modules": []
+  "version": "1.0.5",
+  "discord": {
+    "clientId": "12334567890123456789",
+    "smallImageText": "Yudico",
+    "smallImageKey": "seal-circle"
+  },
+  "rss": "https://raw.githubusercontent.com/maycoveio/yudico-launcher/refs/heads/main/news.xml",
+  "servers": [
+    {
+      "id": "yudico_oficial_1_21_1",
+      "name": "Yudico 1.21.1",
+      "description": "Servidor oficial!",
+      "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
+      "version": "1.0.0",
+      "address": "enx-cirion-29.enx.host:10029",
+      "minecraftVersion": "1.21.1",
+      "mainServer": true,
+      "autoconnect": true,
+      "javaOptions": {
+        "supported": ">=21",
+        "suggestedMajor": 21,
+        "ram": {
+          "recommended": 4096,
+          "minimum": 2048
         }
-    ]
+      },
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.15.7",
+          "name": "Fabric Loader",
+          "type": "Fabric",
+          "required": true,
+          "artifact": {
+            "size": 1196222,
+            "MD5": "a43d5a142246801343b6cedef1c102c4",
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.15.7/fabric-loader-0.15.7.jar"
+          },
+          "subModules": [
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric Intermediary",
+              "type": "Library",
+              "artifact": {
+                "size": 0,
+                "MD5": "",
+                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

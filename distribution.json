@@ -1,8 +1,18 @@
 {
   "version": "1.0.5",
+  "repositories": [
+    {
+      "id": "mojang",
+      "url": "https://libraries.minecraft.net/"
+    },
+    {
+      "id": "central",
+      "url": "https://repo1.maven.org/maven2/"
+    }
+  ],
   "discord": {
     "clientId": "12334567890123456789",
-    "smallImageText": "Yudico",
+    "smallImageText": "Yudico Live",
     "smallImageKey": "seal-circle"
   },
   "news": {
@@ -12,17 +22,17 @@
     {
       "id": "yudico_oficial_1_21_1",
       "name": "Yudico 1.21.1 Oficial",
-      "description": "Servidor oficial RP Medieval",
+      "description": "Servidor oficial com traduções exclusivas e clima controlado!",
       "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
       "version": "1.0.0",
       "address": "enx-cirion-29.enx.host:10029",
       "minecraftVersion": "1.21.1",
       "mainServer": true,
+      "type": "release",
       "javaOptions": {
         "supported": ">=21",
         "suggestedMajor": 21
       },
-      "type": "release",
       "modules": [
         {
           "id": "net.minecraft:client:1.21.1",

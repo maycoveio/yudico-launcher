@@ -10,7 +10,7 @@
     {
       "id": "yudico_oficial_1_21_1",
       "name": "Yudico 1.21.11",
-      "description": "Servidor oficial com Fabric 1.21.1!",
+      "description": "Servidor RP Medieval!",
       "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
       "version": "1.0.0",
       "address": "enx-cirion-29.enx.host:10029",
@@ -27,14 +27,14 @@
       },
       "modules": [
         {
-          "id": "net.fabricmc:fabric-loader:0.15.7",
+          "id": "net.fabricmc:fabric-loader:0.16.9",
           "name": "Fabric Loader",
           "type": "Fabric",
           "required": true,
           "artifact": {
-            "size": 1327275,
-            "MD5": "a43d5a142246801343b6cedef1c102c4",
-            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.15.7/fabric-loader-0.15.7.jar"
+            "size": 1334861,
+            "MD5": "5f98894957434313f8c5b0987c2512f4",
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar"
           },
           "subModules": [
             {
@@ -49,79 +49,79 @@
               }
             },
             {
-              "id": "org.ow2.asm:asm:9.6",
+              "id": "org.ow2.asm:asm:9.7",
               "name": "ASM Core",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 123598,
-                "MD5": "4752538b50931e8477610f6e5203306d",
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar"
+                "size": 124317,
+                "MD5": "33b2a265113d09a066164219a58490a6",
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-tree:9.6",
+              "id": "org.ow2.asm:asm-tree:9.7",
               "name": "ASM Tree",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 51935,
-                "MD5": "3587b9264101e1ec07b62961d153833d",
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+                "size": 52277,
+                "MD5": "680c2f6d0f505697203b54784a6a5754",
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-analysis:9.6",
+              "id": "org.ow2.asm:asm-analysis:9.7",
               "name": "ASM Analysis",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 34041,
-                "MD5": "9170da0e12d35e1653f0648c660bc573",
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+                "size": 34138,
+                "MD5": "24985223c21a4155a5b565a0c8b32064",
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-util:9.6",
+              "id": "org.ow2.asm:asm-util:9.7",
               "name": "ASM Util",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 91225,
-                "MD5": "98e4d2572620712217f259b3297a7e80",
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+                "size": 91705,
+                "MD5": "0b15b59746e16542718e25091725b804",
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-commons:9.6",
+              "id": "org.ow2.asm:asm-commons:9.7",
               "name": "ASM Commons",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 72194,
-                "MD5": "bc1q9shqng58tykf3kmwukzez6h5xne559f5gfu2l8",
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+                "size": 72580,
+                "MD5": "859b5894b05531b7e289f667468532c5",
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar"
               }
             },
             {
-              "id": "net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
+              "id": "net.fabricmc:sponge-mixin:0.15.3+mixin.0.8.7",
               "name": "SpongeMixin",
               "type": "Library",
               "classpath": true,
               "artifact": {
                 "size": 1451874,
                 "MD5": "249622d06583995f7c3558c7e6c40608",
-                "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar"
+                "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar"
               }
             },
             {
-              "id": "1.21.1-fabric-0.15.7",
+              "id": "1.21.1-fabric-0.16.9",
               "name": "Fabric Version Manifest",
               "type": "VersionManifest",
               "artifact": {
                 "size": 2847,
-                "MD5": "69a2bd43452325ba1bc882fa0904e054",
-                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.15.7/profile/json"
+                "MD5": "00c3b098555431b7e289f667468532c5",
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.16.9/profile/json"
               }
             }
           ]

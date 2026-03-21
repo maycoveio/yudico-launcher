@@ -2,15 +2,15 @@
   "version": "1.0.0",
   "discord": {
     "clientId": "12334567890123456789",
-    "smallImageText": "Yudico",
+    "smallImageText": "Yudico Live",
     "smallImageKey": "seal-circle"
   },
   "rss": "https://raw.githubusercontent.com/maycoveio/yudico-launcher/refs/heads/main/news.xml",
   "servers": [
     {
       "id": "yudico_oficial_1_21_1",
-      "name": "Yudico 1.21.11",
-      "description": "Servidor RP Medieval!",
+      "name": "Yudico 1.21.1 Oficial",
+      "description": "Servidor oficial com Fabric 1.21.1!",
       "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
       "version": "1.0.0",
       "address": "enx-cirion-29.enx.host:10029",
@@ -82,14 +82,14 @@
               }
             },
             {
-              "id": "org.spongepowered:mixin:0.8.5",
-              "name": "SpongeMixin",
+              "id": "net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
+              "name": "SpongeMixin (Fabric Edition)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 1339393,
-                "MD5": "68593a12368149842a27572d17c76846",
-                "url": "https://repo1.maven.org/maven2/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+                "size": 935564,
+                "MD5": "249622d06583995f7c3558c7e6c40608",
+                "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar"
               }
             },
             {

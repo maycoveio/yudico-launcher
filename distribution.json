@@ -10,7 +10,7 @@
     {
       "id": "yudico_oficial_1_21_1",
       "name": "Yudico 1.21.1",
-      "description": "Servidor oficial com F!",
+      "description": "Servidor RP Medieval!",
       "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
       "version": "1.0.0",
       "address": "enx-cirion-29.enx.host:10029",
@@ -50,13 +50,35 @@
             },
             {
               "id": "org.ow2.asm:asm:9.6",
-              "name": "ASM",
+              "name": "ASM Core",
               "type": "Library",
               "classpath": true,
               "artifact": {
                 "size": 124353,
                 "MD5": "4752538b50931e8477610f6e5203306d",
                 "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "ASM Tree",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 52402,
+                "MD5": "3587b9264101e1ec07b62961d153833d",
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "ASM Commons",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 71833,
+                "MD5": "bc1q9shqng58tykf3kmwukzez6h5xne559f5gfu2l8",
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
               }
             },
             {

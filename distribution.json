@@ -10,7 +10,7 @@
     {
       "id": "yudico_oficial_1_21_1",
       "name": "Yudico 1.21.11",
-      "description": "Servidor RP Medieval!",
+      "description": "Servidor oficial com Fabric 1.21.1!",
       "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
       "version": "1.0.0",
       "address": "enx-cirion-29.enx.host:10029",
@@ -76,9 +76,20 @@
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 33903,
+                "size": 34041,
                 "MD5": "9170da0e12d35e1653f0648c660bc573",
                 "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "ASM Util",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 91225,
+                "MD5": "98e4d2572620712217f259b3297a7e80",
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
               }
             },
             {

@@ -9,7 +9,7 @@
   "servers": [
     {
       "id": "yudico_oficial_1_21_1",
-      "name": "Yudico 1.21.1",
+      "name": "Yudico 1.21.11",
       "description": "Servidor RP Medieval!",
       "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
       "version": "1.0.0",
@@ -54,7 +54,7 @@
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 124353,
+                "size": 123598,
                 "MD5": "4752538b50931e8477610f6e5203306d",
                 "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar"
               }
@@ -65,7 +65,7 @@
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 52402,
+                "size": 51935,
                 "MD5": "3587b9264101e1ec07b62961d153833d",
                 "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
               }
@@ -76,9 +76,20 @@
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 71833,
+                "size": 72194,
                 "MD5": "bc1q9shqng58tykf3kmwukzez6h5xne559f5gfu2l8",
                 "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "SpongeMixin",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 1339393,
+                "MD5": "68593a12368149842a27572d17c76846",
+                "url": "https://repo1.maven.org/maven2/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
               }
             },
             {
@@ -86,8 +97,8 @@
               "name": "Fabric Version Manifest",
               "type": "VersionManifest",
               "artifact": {
-                "size": 0,
-                "MD5": "",
+                "size": 2847,
+                "MD5": "69a2bd43452325ba1bc882fa0904e054",
                 "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.15.7/profile/json"
               }
             }

@@ -11,7 +11,7 @@
       "id": "yudico_oficial_1_21_1",
       "name": "Yudico 1.21.11",
       "description": "Servidor RP Medieval!",
-      "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
+      "icon": "https://raw.githubusercontent.com/maycoveio/yudico-launcher/refs/heads/main/app/assets/images/SealCircle.png",
       "version": "1.0.0",
       "address": "enx-cirion-29.enx.host:10029",
       "minecraftVersion": "1.21.11",

@@ -5,7 +5,9 @@
     "smallImageText": "Yudico Live",
     "smallImageKey": "seal-circle"
   },
-  "rss": "https://raw.githubusercontent.com/maycoveio/yudico-launcher/refs/heads/main/news.xml",
+  "news": {
+    "url": "https://raw.githubusercontent.com/maycoveio/yudico-launcher/refs/heads/main/news.xml"
+  },
   "servers": [
     {
       "id": "yudico_oficial_1_21_1",

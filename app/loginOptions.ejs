@@ -1,0 +1,36 @@
+<div id="loginOptionsContainer" style="display: none;">
+    <div id="loginOptionsContent">
+        <div class="loginOptionsMainContent">
+            <h2 style="color: white; margin-bottom: 20px;">Opções de Login</h2>
+            
+            <div class="loginOptionActions">
+                <div class="loginOptionButtonContainer">
+                    <button id="loginOptionMicrosoft" class="loginOptionButton">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 23 23">
+                            <path fill="#f35325" d="M1 1h10v10H1z" />
+                            <path fill="#81bc06" d="M12 1h10v10H12z" />
+                            <path fill="#05a6f0" d="M1 12h10v10H1z" />
+                            <path fill="#ffba08" d="M12 12h10v10H12z" />
+                        </svg>
+                        <span>Login com Microsoft</span>
+                    </button>
+                </div>
+
+                <hr style="width: 100%; border: 0.5px solid rgba(255,255,255,0.1); margin: 15px 0;">
+                <h3 style="color: white; margin-bottom: 10px; font-weight: 400;">Entrar com Nick (Offline)</h3>
+
+                <div class="loginOptionButtonContainer" style="flex-direction: column; gap: 10px;">
+                    <input type="text" id="offlineNickname" placeholder="Digite seu Nick aqui..." style="padding: 12px; border-radius: 4px; border: none; width: 100%; background: rgba(0,0,0,0.5); color: white; text-align: center; font-size: 16px;">
+                    <button id="loginOptionOffline" class="loginOptionButton" style="background-color: #28a745; justify-content: center; width: 100%;">
+                        <span>JOGAR AGORA</span>
+                    </button>
+                </div>
+            </div>
+
+            <div id="loginOptionCancelContainer" style="margin-top: 20px;">
+                <button id="loginOptionCancelButton" class="loginOptionButton" style="background: none; border: 1px solid white; justify-content: center;">Voltar</button>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/scripts/loginOptions.js"></script>
+</div>
